@@ -1,0 +1,62 @@
+.App {
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+}
+
+html, body, .App {
+    height: 100%;
+}
+
+.gear {
+    height: 20vh;
+    animation: App-logo-spin infinite 20s linear;
+    /* position: absolute; */
+    z-index: 1;
+}
+
+.gear-container {
+    position: relative;
+    text-align: center;;
+    color: black;
+}
+
+.gear-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 900;
+    font-size: 3vh;
+}
+
+main {
+    background-color: #2a2c2e;
+    height: 93vh;
+    align-items: center;
+}
+.App-header {
+  background-color: #090a0b;
+  height: 7vh;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 3vh;
+  justify-content: center;
+  padding-left: 2vw;
+  color: white;
+  text-align: left;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
